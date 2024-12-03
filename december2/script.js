@@ -50,7 +50,7 @@ const data1 = {
     city: "itarsi",
     age: 19,
     show: function(){
-        return `my name is : ${name} and my age is : ${age}`;
+        return `my name is : ${this.name} and my age is : ${this.age}`;
     },
 }
 
@@ -58,5 +58,5 @@ var display = document.getElementById("demo2")
 display.innerHTML = data1.name+" "+data1.city+" "+data1.age;
 
 function give(){
-    console.log(data1.show());
+    display.innerHTML = data1.show();
 }
