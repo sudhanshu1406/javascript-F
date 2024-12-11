@@ -62,22 +62,22 @@ for(let r=1; r<=5; ++r)
 document.getElementById("demo").innerHTML = text3;
 
 // from while loop
-let tri1 = "";
-let r = 1;
-while(r<=5)
-{
-    let c = 1;
-    while(c<=5)
-    {
-        if(c>=6-r)
-        {
-            tri += "*";
-        }
-        else
-        {
-            tri += " ";
-        }
-    }
-    tri += `<br>`;
-}
-document.getElementById("demo").innerHTML = tri;
+// let tri1 = "";
+// let r = 1;
+// while(r<=5)
+// {
+//     let c = 1;
+//     while(c<=5)
+//     {
+//         if(c>=6-r)
+//         {
+//             tri += "*";
+//         }
+//         else
+//         {
+//             tri += " ";
+//         }
+//     }
+//     tri += `<br>`;
+// }
+// document.getElementById("demo").innerHTML = tri;
