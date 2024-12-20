@@ -79,6 +79,13 @@ console.log(d8);
 const d9 = new Date(2020);
 console.log(d9);
 
+// date methods
+const year = today.getFullYear();
+console.log(year);
+const month = today.getMonth();
+console. log(month); 
+const date = today.getDate();
+console. log(date); 
 
 
 
