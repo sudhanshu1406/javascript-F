@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .container div {
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border: 20px solid yellow;
+        }
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="container">
+            <div class="d1" data-aos="fade-up"></div>
+            <div class="d2" data-aos="fade-down"></div>
+        </div>
+
+        <div class="container" >
+            <div class="d1" data-aos="fade-right"></div>
+            <div class="d2" data-aos="fade-left"></div>
+        </div>
+
+        <div class="container" data-aos="flip-left">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="container" data-aos="flip-right">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="container" data-aos="zoom-in">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="container" data-aos="zoom-in-up">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="container" data-aos="fade-right"  data-aos-duration="2000">
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "emp" : [
+        {
+            "name":"sudhanshu",
+            "age":89,
+            "city":"bhopal",
+            "contact":123456
+        }
+    ]
+}
