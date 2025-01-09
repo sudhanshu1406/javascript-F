@@ -1,10 +1,32 @@
 {
-    "emp" : [
-        {
-            "name":"sudhanshu",
-            "age":89,
-            "city":"bhopal",
-            "contact":123456
-        }
-    ]
+  "emp": [
+    {
+      "name": "ritik chutki",
+      "id": "4738",
+      "age": "19",
+      "contact": "123457677",
+      "city": "itarsi"
+    },
+    {
+      "id": "1cdb",
+      "name": "rajeev",
+      "age": "24",
+      "city": "agra",
+      "contact": "123"
+    },
+    {
+      "id": "6e3d",
+      "name": "deepak sir ",
+      "age": "24",
+      "city": "agra",
+      "contact": "12345678910"
+    },
+    {
+      "id": "4b9b",
+      "name": "sudhanshu",
+      "age": "24",
+      "city": "bhopal",
+      "contact": "23451678"
+    }
+  ]
 }

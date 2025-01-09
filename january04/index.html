@@ -4,27 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table thead th{
-            border: 2px solid black;
-        }
-        tbody{
-            border: 2px solid black;
-        }
-    </style>
 </head>
 <body>
-
-    <table>
+    <table border="">
         <thead>
             <th>ID</th>
             <th>NAME</th>
             <th>AGE</th>
             <th>CONTACT</th>
             <th>CITY</th>
+            <th>Delete</th>
+            <th>update</th>
         </thead>
         <tbody id="displaydata"></tbody>
     </table>
-    <script src="./script.js"></script>
+    <button onclick="insert_data()">insert</button>
+
+    <div id="editform"></div>
+    <script src="./script1.js"></script>
 </body>
 </html>
